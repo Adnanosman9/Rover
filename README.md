@@ -37,7 +37,7 @@ Open-source modular autonomous rover chassis based on the [Sawppy Rover](https:/
 
 This is a student-led robotics project building a modular autonomous ground rover platform for robotics experimentation, autonomous navigation, and future competition adaptation.
 
-Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the original LX-16A smart servo drivetrain with JGB37-520 DC gear motors and Hiwonder LDX-227 PWM servos — components that are significantly easier to source locally in Bangladesh at a fraction of the cost. Development files, CAD assets, documentation, and future electronics designs are intended to be published openly as the project progresses.
+Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the original LX-16A smart servo drivetrain with JGB37-520 DC gear motors and Hiwonder LDX-227 PWM servos components that are significantly easier to source locally in Bangladesh at a fraction of the cost. Development files, CAD assets, documentation, and future electronics designs are intended to be published openly as the project progresses.
 
 ---
 
@@ -56,7 +56,7 @@ Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the ori
 - Modular chassis architecture designed for payload expansion
 - JGB37-520 12V 100RPM DC gear motor drivetrain (×6)
 - Hiwonder LDX-227 PWM servo steering (×4)
-- Standard 25T servo spline — no proprietary hardware
+- Standard 25T servo spline, no proprietary hardware
 - Designed for ROS 2 integration and future autonomous navigation stack
 
 ---
@@ -69,9 +69,9 @@ Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the ori
 | Steering | LX-16A smart servo | Hiwonder LDX-227 PWM servo |
 | Motor control | Serial smart servo bus | BTS7960 |
 | Servo spline | Proprietary | Standard 25T spline |
-| Control MCU | — | Arduino or ESP |
-| single board computer | — | Raspberry pi 4 4B |
-| IMU | — | MPU-6050 |
+| Control MCU | - | Arduino or ESP |
+| single board computer | - | Raspberry pi 4 4B |
+| IMU | - | MPU-6050 |
 | Hardware sourcing | Mostly imported | Locally available in Bangladesh |
 
 ---
@@ -89,7 +89,7 @@ Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the ori
 - Steel/aluminum shafts
 
 ### Electronics
-- Raspberry pi 4
+- Raspberry Pi 4
 - Arduino or ESP
 - MPU-6050 IMU
 - LiPo battery pack + BMS
@@ -110,9 +110,9 @@ Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the ori
 - Motor mount redesign
 - Servo bracket redesign
 - Steering linkage adaptation
-- STEP files generated — available in [`/cad`](./cad)
+- STEP files generated are available in [`/Step-files`](./Step-files)
 - BOM completed
-- Build log available in [`/Build log`](./)
+- Build log available in [`/Build log`](./Build%20log/architecture-journal.md)
 - HCB fiscal sponsorship approved
 
 ### In Progress
@@ -180,13 +180,13 @@ See [`LICENSE`](./LICENSE) for the full text, or visit [ohwr.org/cern_ohl_s_v2.t
 ## Acknowledgements
 
 - [Roger Random (@Roger-random)](https://github.com/Roger-random) and the [Sawppy Rover](https://github.com/Roger-random/Sawppy_Rover) community — original architecture, suspension geometry, and open-source design philosophy
-- [Hack Club HCB](https://hackclub.com/hcb) — fiscal sponsorship
+- [Hack Club HCB](https://hackclub.com/hcb) - fiscal sponsorship
 - Open-source robotics and maker communities
 
 ---
 
 ## Author
 
-**Adnan Osman** — [github.com/Adnanosman9](https://github.com/Adnanosman9)
+**Adnan Osman** - [github.com/Adnanosman9](https://github.com/Adnanosman9)
 
 Project website: [adnanosman9.github.io/Bumblebee](https://adnanosman9.github.io/Bumblebee/)
