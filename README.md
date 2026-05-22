@@ -1,11 +1,35 @@
-# Bumblebee Rover
+<p align="center">
+  <img src="images/bumblebee-logo.png" width="360" alt="Bumblebee Logo">
+</p>
 
-[![License: CERN-OHL-S-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--S--2.0-blue.svg)](https://ohwr.org/cern_ohl_s_v2.txt)
-[![Fiscal Sponsor: HCB](https://img.shields.io/badge/Fiscal%20Sponsor-Hack%20Club%20HCB-ec3750.svg)](https://hcb.hackclub.com/donations/start/bumblebee)
-[![Status: Active](https://img.shields.io/badge/Status-Active%20Build-22c55e.svg)](#current-progress)
-[![Open Source Hardware](https://img.shields.io/badge/Open%20Source-Hardware-orange.svg)](https://www.oshwa.org/)
+<h1 align="center">Bumblebee Rover</h1>
+
+<p align="center">
+Open-source modular autonomous rover platform based on the Sawppy Rover architecture,
+adapted around affordable and locally available hardware in Bangladesh.
+</p>
+
+<p align="center">
+  <a href="https://ohwr.org/cern_ohl_s_v2.txt">
+    <img src="https://img.shields.io/badge/Hardware-CERN--OHL--S--2.0-blue.svg">
+  </a>
+  <a href="https://hcb.hackclub.com/donations/start/bumblebee">
+    <img src="https://img.shields.io/badge/Fiscal%20Sponsor-Hack%20Club%20HCB-ec3750.svg">
+  </a>
+  <img src="https://img.shields.io/badge/Status-Active%20Build-22c55e.svg">
+  <img src="https://img.shields.io/badge/Open%20Source-Hardware-orange.svg">
+</p>
+
 
 Open-source modular autonomous rover chassis based on the [Sawppy Rover](https://github.com/Roger-random/Sawppy_Rover) architecture by [@Roger-random](https://github.com/Roger-random), redesigned around affordable and locally available hardware in Bangladesh.
+
+---
+
+<p align="center">
+  <img src="images/sawppy-reference.jpg" width="850" alt="Sawppy Rover Reference">
+</p>
+
+### **Reference** [@Sawppy Rover](https://github.com/Roger-random/Sawppy_Rover/blob/main/docs/images/MechanicalChassis.jpg) by Roger Random, base chassis architecture this project is built on. 
 
 ---
 
@@ -88,7 +112,7 @@ Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the ori
 - Steering linkage adaptation
 - STEP files generated — available in [`/cad`](./cad)
 - BOM completed
-- Build log available on 
+- Build log available in [`/Build log`](./)
 - HCB fiscal sponsorship approved
 
 ### In Progress
@@ -106,7 +130,7 @@ Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the ori
 
 ## Why This Build Exists
 
-Most capable open-source rover platforms — including the original Sawppy — rely on LX-16A or similar smart servos that are expensive and difficult to source reliably outside of the US, Europe, or China. Bumblebee is a direct answer to that problem: a full rocker-bogie rover platform rebuilt around hardware that is actually available in Bangladesh, at prices students can work with.
+Most capable open-source rover platforms - including the original Sawppy - rely on LX-16A or similar smart servos that are expensive and difficult to source reliably outside of the US, Europe, or China. Bumblebee is a direct answer to that problem: a full rocker-bogie rover platform adapted around hardware that is realistically accessible to students in Bangladesh.
 
 The engineering tradeoffs are documented openly. This project is also intended to help other students and makers in similar situations adapt advanced robotics platforms to their local hardware ecosystem.
 
@@ -120,7 +144,7 @@ We are currently seeking support for:
 
 | What | Why it matters |
 |---|---|
-| Power and control | Battery, converters and motor drivers are the controlling barrier |
+| Power and control | Batteries, converters, and motor drivers are currently major integration blockers |
 | 3D printing | Structural parts, FDM in PLA/PETG |
 | JGB37-520 motors + LDX-227 servos | Hard to source at consistent spec in Bangladesh |
 | Sensors & compute | IMU, GPS, SBC for autonomous navigation stack |
@@ -140,7 +164,7 @@ Sponsors receive logo placement on the project website and permanent credit in a
 ├── docs/         # Build logs and engineering notes
 └── bom/          # Bill of materials
 ```
-Firmware, images, docs, and everything will be available here after testing over time. 
+Additional firmware, electronics files, documentation, and testing data will be added progressively as development continues.
 ---
 
 ## License
