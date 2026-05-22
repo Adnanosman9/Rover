@@ -13,7 +13,7 @@ Open-source modular autonomous rover chassis based on the [Sawppy Rover](https:/
 
 This is a student-led robotics project building a modular autonomous ground rover platform for robotics experimentation, autonomous navigation, and future competition adaptation.
 
-Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the original LX-16A smart servo drivetrain with JGB37-520 DC gear motors and Hiwonder LDX-227 PWM servos — components that are significantly easier to source locally in Bangladesh at a fraction of the cost. Everything is open-source: CAD files, schematics, BOM, and build logs are published here as development progresses.
+Bumblebee is a derivative of the Sawppy Rover by Roger Random, replacing the original LX-16A smart servo drivetrain with JGB37-520 DC gear motors and Hiwonder LDX-227 PWM servos — components that are significantly easier to source locally in Bangladesh at a fraction of the cost. Development files, CAD assets, documentation, and future electronics designs are intended to be published openly as the project progresses.
 
 ---
 
@@ -120,12 +120,12 @@ We are currently seeking support for:
 
 | What | Why it matters |
 |---|---|
-| PCBA fabrication | KiCad files are ready — manufacturing is the only blocker |
+| Power and control | Battery, converters and motor drivers are the controlling barrier |
 | 3D printing | Structural parts, FDM in PLA/PETG |
 | JGB37-520 motors + LDX-227 servos | Hard to source at consistent spec in Bangladesh |
 | Sensors & compute | IMU, GPS, SBC for autonomous navigation stack |
 
-**→ [Sponsor page](https://adnanosman9.github.io/Bumblebee/sponsor.html)**
+For sponsorship details visit **→ [Sponsor page](https://adnanosman9.github.io/Bumblebee/sponsor.html)**
 **→ [Donate directly via HCB](https://hcb.hackclub.com/donations/start/bumblebee)**
 
 Sponsors receive logo placement on the project website and permanent credit in all documentation.
