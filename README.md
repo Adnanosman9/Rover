@@ -136,13 +136,11 @@ Sponsors receive logo placement on the project website and permanent credit in a
 
 ```
 /
-├── cad/          # Fusion 360 source files and STEP exports
-├── pcb/          # KiCad schematics and PCB layouts
-├── firmware/     # ESP32 firmware (in progress)
+├── step-files/          # Fusion 360 source files and STEP exports
 ├── docs/         # Build logs and engineering notes
 └── bom/          # Bill of materials
 ```
-
+Firmware, images, docs, and everything will be available here after testing over time. 
 ---
 
 ## License
