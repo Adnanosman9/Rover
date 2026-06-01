@@ -1,4 +1,4 @@
-# Bill of Materials of Bumblebee Rover
+# Bill of Materials — Bumblebee Rover
 
 > Based on the [Sawppy Rover](https://github.com/Roger-random/Sawppy_Rover) architecture by [@Roger-random](https://github.com/Roger-random), adapted for locally available hardware in Bangladesh.
 
@@ -9,24 +9,31 @@
 
 | Qty | Part | Notes |
 |-----|------|-------|
-| 88 | Clip2n125 | Print extra for spares |
-| 12 | Clip3n20 | Print extra for spares |
-| 6 | Wheel Hub | Modified for JGB37-520 D-shaft |
-| 6 | JGB37-520 Motor Bracket | Redesigned mount |
-| 6 | JGB37-520 Motor Coupler | Wheel-to-motor connection |
-| 4 | LDX-277 Coupler | Redesigned for 25T spline |
-| 4 | LDX-277 Bracket | Redesigned for servo dimensions |
+| 88 | Clip2n125 | Print a few extra for spares |
+| 12 | Clip3n20 | Print a few extra for spares |
+| 6 | Wheel Hub | Print a few extra for spares |
+| 4 | Servo Coupler | Print a few extra for spares |
+| 4 | Servo Bracket | |
 | 6 | Wheel | |
-| 4 | Steering Knuckle | Modified geometry |
+| 4 | Steering Knuckle | |
 | 4 | Body Corner | |
-| 2 | DiffBrace / DiffLink | |
-| 1 | DiffLower / DiffUpper | |
+| 2 | DiffBrace | |
+| 2 | DiffLink | |
+| 1 | DiffLower | |
+| 1 | DiffUpper | |
 | 2 | Rod Support | |
-| 1 | Power Panel | Updated for new electronics layout |
-| 2 ea | Fixed Knuckle, Front Knuckle, Rear Knuckle | Mirrored pairs |
-| 2 ea | Bogie Wheels, Bogie Body | Mirrored pairs |
-| 2 ea | Rocker, Rocker Body Mount | Mirrored pairs |
-| 2 ea | DiffEnd, Battery Tray | Mirrored pairs |
+| 1 | Power Panel | |
+| 2 | Fixed Knuckle | Mirrored |
+| 2 | Front Corner | Mirrored |
+| 2 | Rear Corner | Mirrored |
+| 2 | Bogie Wheels | Mirrored |
+| 2 | Bogie Body | Mirrored |
+| 2 | Rocker | Mirrored |
+| 2 | Rocker Body Mount | Mirrored |
+| 2 | DiffEnd | Mirrored |
+| 2 | Battery Tray | Mirrored |
+| 6 | JGB37-520 Motor Bracket | Redesigned mount · not yet designed, pending physical measurements |
+| 6 | JGB37-520 Motor Coupler | Wheel-to-motor connection · not yet designed, pending physical measurements |
 
 ---
 
@@ -84,10 +91,10 @@ Standard 15mm or 20mm V-slot / T-slot profile.
 
 ## Notes
 
-- **LDX-277 vs LDX-227** - verify exact model number before ordering. The website uses LDX-277; the README previously referenced LDX-227. Check your supplier listing.
-- **BTS7960 wiring** - 3 drivers handle 6 motors in pairs (left-front+right-front, left-mid+right-mid, left-rear+right-rear). Each driver needs RPWM, LPWM, R_EN, and L_EN.
-- **608 bearings** - standard inline skate bearings, widely available locally.
-- Printed part STEP files: [`/Step-files`](./Step-files)
+- **Motor Bracket & Coupler** — not yet designed. Will be modeled after physical parts are printed and measured.
+- **BTS7960 wiring** — 3 drivers handle 6 motors in pairs (left-front+right-front, left-mid+right-mid, left-rear+right-rear). Each driver needs RPWM, LPWM, R_EN, L_EN from the ESP32-C3 — 12 GPIO pins total for drive.
+- **608 bearings** — standard inline skate bearings, widely available locally.
+- Printed part STEP files: [`/cad`](./cad)
 
 ---
 
