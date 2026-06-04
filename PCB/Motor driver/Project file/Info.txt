@@ -1,0 +1,21 @@
+﻿Project Title: 		Dual_Motor_Driver
+Borard Title: 		Board1
+PCB Title: 		PCB1
+Time: 		2026-06-04 21:03:17
+
+Borard Size: 		58.713mm x 60.025mm
+Layers: 		Total 24, Copper 4
+
+Devices: 		44
+Footprints: 		33
+Components: 		Total 125,Top Layer 105,Bottom Layer 20
+Pads: 		Total 457, Top Side Table Stick 342,Bottom Side Table Stick 98,Metallized Hole 17, Nonmetallic Hole 0
+Nets: 		Total 96, Unrouted 0
+Test Point: 		Nets Total 96, Has Testpoint Nets 0, Testpoint Coverage 0%
+ 		Total 0, Top Side Testpoints 0, Bottom Side Testpoints 0
+
+Slot Region: 		2
+Vias: 		Total 526, Through Vias 526, Blind Or Buried Vais 0
+CopperAreas: 		6
+Length of Tracks: 		1732.224mm
+
